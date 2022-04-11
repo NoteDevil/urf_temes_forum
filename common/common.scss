@@ -516,8 +516,3 @@ html body #main-outlet {
   background-color: var(--primary-low-mid);
   border-radius: 0.5em;
 }
-
-.custom-category-boxes:not(.above-discovery-categories-outlet) {
-  display: none;
-  grid-template-rows: 1fr;
-}
