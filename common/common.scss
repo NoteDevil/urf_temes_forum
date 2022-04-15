@@ -196,19 +196,12 @@ html {
     left: 0;
     height: 100vh;
     width: 100vw;
-    @if $no-background-image == 'false' {
-      @if $background-image != 'default' {
-        background-image: url($background-image);
-        background-size: cover;
-      } @else {
-        background: linear-gradient(
-          90deg,
-          var(--tertiary-hover) 0%,
-          var(--tertiary) 100%
-        );
-        clip-path: ellipse(148% 70% at 91% -14%);
-      }
-    }
+    background: linear-gradient(
+      90deg,
+      var(--tertiary-hover) 0%,
+      var(--tertiary) 100%
+    );
+    clip-path: ellipse(148% 70% at 91% -14%);
   }
 }
 
