@@ -205,8 +205,8 @@ html {
       } @else {
         background: linear-gradient(
           90deg,
-          var(--tertiary-hover) 0%,
-          var(--tertiary) 1%
+          var(--tertiary-hover) 100%,
+          var(--tertiary) 0%
         );
         z-index: -1;
       }
