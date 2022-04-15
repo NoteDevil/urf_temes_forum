@@ -1,0 +1,5 @@
+
+background_image:
+  type: string
+  default: default
+  description: Enter image url
