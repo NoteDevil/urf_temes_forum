@@ -203,11 +203,7 @@ html {
         background-image: url($background-image);
         background-size: cover;
       } @else {
-        background: linear-gradient(
-          90deg,
-          var(--tertiary-hover) 100%,
-          var(--tertiary) 0%
-        );
+        background: (var(--love));
         z-index: -1;
       }
     }
