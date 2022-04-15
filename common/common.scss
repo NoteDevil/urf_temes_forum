@@ -205,7 +205,6 @@ html {
       @if $background-image != 'default' {
         // Thanks @tmoko!
         background-image: url($background-image);
-        background-size: auto;
       } @else {
         // Default background pattern from Toptal Subtle Patterns
         // ♡ https://www.toptal.com/designers/subtlepatterns/japanese-sayagata/
@@ -460,9 +459,9 @@ html body #main-outlet {
 }
 
 .published-page {
-  .background-container {
-    display: none;
-  }
+  // .background-container {
+  //   display: none;
+  // }
   &::before {
     background: linear-gradient(
       90deg,
