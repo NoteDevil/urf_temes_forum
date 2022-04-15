@@ -199,6 +199,7 @@ html {
     @if $no-background-image == 'false' {
       @if $background-image != 'default' {
         background-image: url($background-image);
+        background-size: cover;
       } @else {
         background: linear-gradient(
           90deg,
