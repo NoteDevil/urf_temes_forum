@@ -449,9 +449,9 @@ html body #main-outlet {
 }
 
 .published-page {
-  // .background-container {
-  //   display: none;
-  // }
+  .background-container {
+    display: none;
+  }
   &::before {
     background: linear-gradient(
       90deg,
