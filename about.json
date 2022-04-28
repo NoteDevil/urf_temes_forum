@@ -33,6 +33,7 @@
     }
   },
   "components": [
+    "https://github.com/NoteDevil/urf_temes_category.git",
     "https://github.com/discourse/discourse-color-scheme-toggle.git"
   ]
 }
